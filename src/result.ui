@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Result</class>
+    <widget class="QWidget" name="Result">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>400</width>
+                <height>300</height>
+            </rect>
+        </property>
+        <property name="minimumSize">
+            <size>
+                <width>400</width>
+                <height>300</height>
+            </size>
+        </property>
+        <property name="maximumSize">
+            <size>
+                <width>400</width>
+                <height>300</height>
+            </size>
+        </property>
+        <property name="windowTitle">
+            <string>Result</string>
+        </property>
+        <widget class="QPushButton" name="quitGameButton">
+            <property name="geometry">
+                <rect>
+                    <x>260</x>
+                    <y>240</y>
+                    <width>100</width>
+                    <height>30</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Quit</string>
+            </property>
+        </widget>
+        <widget class="QPushButton" name="playAgainButton">
+            <property name="geometry">
+                <rect>
+                    <x>40</x>
+                    <y>240</y>
+                    <width>100</width>
+                    <height>30</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Play again!</string>
+            </property>
+        </widget>
+        <widget class="QTextBrowser" name="gameResultText">
+            <property name="geometry">
+                <rect>
+                    <x>15</x>
+                    <y>10</y>
+                    <width>370</width>
+                    <height>210</height>
+                </rect>
+            </property>
+        </widget>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>

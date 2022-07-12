@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>AboutDoc</class>
+    <widget class="QDialog" name="AboutDoc">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>400</width>
+                <height>500</height>
+            </rect>
+        </property>
+        <property name="minimumSize">
+            <size>
+                <width>400</width>
+                <height>500</height>
+            </size>
+        </property>
+        <property name="maximumSize">
+            <size>
+                <width>400</width>
+                <height>500</height>
+            </size>
+        </property>
+        <property name="windowTitle">
+            <string>About</string>
+        </property>
+        <widget class="QPushButton" name="pushButtonBack">
+            <property name="geometry">
+                <rect>
+                    <x>150</x>
+                    <y>450</y>
+                    <width>100</width>
+                    <height>30</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Back to menu</string>
+            </property>
+        </widget>
+        <widget class="QTextBrowser" name="textBrowser">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>10</y>
+                    <width>380</width>
+                    <height>430</height>
+                </rect>
+            </property>
+        </widget>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>

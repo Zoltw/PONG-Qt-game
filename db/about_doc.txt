@@ -1,0 +1,16 @@
+--------------------------- PONG ---------------------------
+
+https://github.com/Zoltw
+
+Train mode:
+You can control paddle by pressing W (up) and S (down).
+
+Tournament mode:
+Player by the left side move paddle by pressing W (up)
+and S (down).
+Player by the right side move paddle by mouse.
+Ball start after 3 seconds.
+Your time is 90 seconds.
+
+Have fun!
+
