@@ -1,4 +1,4 @@
-#include "../lib/frame.h"
+#include "../include/frame.h"
 
 FrameUpDown::FrameUpDown(int a, int b) {
     setRect(0, 0, a, b);

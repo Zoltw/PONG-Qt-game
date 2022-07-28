@@ -22,7 +22,7 @@ public:
      */
     explicit AboutDoc(QWidget *parent = nullptr);
 
-    ~AboutDoc() override;
+    ~AboutDoc();
 
 private slots:
 

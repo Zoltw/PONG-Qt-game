@@ -27,13 +27,13 @@ protected:
      * @brief Values and tools of controling paddles by keys
      * @param event
      */
-    void keyPressEvent(QKeyEvent *event) override;
+    void keyPressEvent(QKeyEvent *event);
 
     /**
      * @brief Values and tools of controling paddles by mouse
      * @param event
      */
-    void mouseMoveEvent(QGraphicsSceneMouseEvent *event) override;
+    void mouseMoveEvent(QGraphicsSceneMouseEvent *event);
 };
 
 #endif // PADDLE_H

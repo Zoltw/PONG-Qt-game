@@ -1,4 +1,4 @@
-#include "../lib/mainwindow.h"
+#include "../include/mainwindow.h"
 
 MainWindow::MainWindow() {
     createScene();

@@ -42,7 +42,7 @@ private:
 
     static void delay();
 
-    Result *result{};
+    Result *result;
 };
 
 #endif // TIMER_H

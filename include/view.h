@@ -28,7 +28,7 @@ public:
      * @brief Event that close program
      * @param event
      */
-    void closeEvent(QCloseEvent *event) override;
+    void closeEvent(QCloseEvent *event);
 
     /**
      * @brief Scene change

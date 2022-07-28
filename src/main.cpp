@@ -1,7 +1,7 @@
 #include <QApplication>
 #include <QSplashScreen>
 
-#include "../lib/game.h"
+#include "../include/game.h"
 
 int main(int argc, char *argv[]) {
     QApplication runGame(argc, argv);
@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
         QTimer::singleShot(2000, splash, SLOT(close()));
         QTimer::singleShot(2500, &menu, SLOT(show()));
 
-        return QApplication::exec();
+        return runGame.exec();
     }
 
         // run only "about and documentation screen"
@@ -30,12 +30,12 @@ int main(int argc, char *argv[]) {
         AboutDoc widget;
         widget.show();
 
-        return QApplication::exec();
+        return runGame.exec();
     }
         // run application without splash screen
     else if (argv[1] == nosplash){
         menu.show();
-        return QApplication::exec();
+        return runGame.exec();
     }
 }
 

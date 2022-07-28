@@ -45,8 +45,8 @@ private slots:
 
 private:
     Ui::Result *ui;
-    View *viewer{};
-    Game *game{};
+    View *viewer;
+    Game *game;
     int player1 = 0;
     int player2 = 0;
 };

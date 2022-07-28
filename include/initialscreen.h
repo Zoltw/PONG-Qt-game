@@ -49,8 +49,8 @@ private slots:
 
 private:
     View *viewer;
-    Game *game{};
-    AboutDoc *aboutdoc{};
+    Game *game;
+    AboutDoc *aboutdoc;
     QGraphicsPixmapItem *background;
     QGraphicsPixmapItem *foreground;
     QPushButton *trainModeButton;

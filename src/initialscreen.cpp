@@ -1,4 +1,4 @@
-#include "../lib/initialscreen.h"
+#include "../include/initialscreen.h"
 
 InitialScreen::InitialScreen(View *view, QWidget *parent) : QGraphicsScene(parent) {
     viewer = view;

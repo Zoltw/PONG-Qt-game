@@ -1,8 +1,20 @@
-#include "../lib/game.h"
+#include "../include/game.h"
 
-Game::Game(QObject *parent, bool mode) : QGraphicsScene(0, 0, 1280, 720, parent), player1(), player2(), logo(),
-                                         frameUp(), frameDown(), frameCentre(), frameRight(), frameScoreLeft(),
-                                         frameScoreRight(), ball(), paddle1(), paddle2(), timer() { renderGame(mode); }
+Game::Game(QObject *parent, bool mode) : QGraphicsScene(0, 0, 1280, 720, parent),
+player1(),
+player2(),
+logo(),
+frameUp(),
+frameDown(),
+frameCentre(),
+frameRight(),
+frameScoreLeft(),
+frameScoreRight(),
+ball(),
+paddle1(),
+paddle2(),
+timer()
+{ renderGame(mode); }
 
 void Game::renderGame(bool mode) {
     setSceneRect(0, 0, 1280, 720);

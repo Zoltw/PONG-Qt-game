@@ -1,5 +1,5 @@
 #include <QTextStream>
-#include "../lib/aboutdoc.h"
+#include "../include//aboutdoc.h"
 #include "ui_aboutdoc.h"
 
 AboutDoc::AboutDoc(QWidget *parent) : QDialog(parent), ui(new Ui::AboutDoc) {

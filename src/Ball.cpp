@@ -1,4 +1,4 @@
-#include "../lib/Ball.h"
+#include "../include/Ball.h"
 
 Ball::Ball(QGraphicsItem *parent) : QGraphicsEllipseItem(parent) {
     setRect(0, 0, 30, 30);

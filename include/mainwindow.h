@@ -42,9 +42,9 @@ private:
      */
     void createScene();
 
-    InitialScreen *initialscreen{};
-    View *view{};
-    Game *game{};
+    InitialScreen *initialscreen;
+    View *view;
+    Game *game;
 };
 
 #endif // MAINWINDOW_H

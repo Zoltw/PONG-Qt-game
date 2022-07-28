@@ -29,17 +29,17 @@ add_executable(untitled3
         src/view.cpp
         src/aboutdoc.ui
         src/result.ui
-        lib/aboutdoc.h
-        lib/backgrounditems.h
-        lib/Ball.h
-        lib/frame.h
-        lib/game.h
-        lib/initialscreen.h
-        lib/mainwindow.h
-        lib/Paddle.h
-        lib/result.h
-        lib/timer.h
-        lib/view.h)
+        include/aboutdoc.h
+        include/backgrounditems.h
+        include/Ball.h
+        include/frame.h
+        include/game.h
+        include/initialscreen.h
+        include/mainwindow.h
+        include/Paddle.h
+        include/result.h
+        include/timer.h
+        include/view.h)
 target_link_libraries(untitled3
         Qt::Core
         Qt::Gui

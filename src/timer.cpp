@@ -1,4 +1,4 @@
-#include "../lib/timer.h"
+#include "../include/timer.h"
 
 Timer::Timer(QGraphicsItem *parent) : QGraphicsTextItem(parent) {
     timeCount = 90;

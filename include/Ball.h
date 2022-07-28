@@ -42,13 +42,13 @@ public slots:
     void move();
 
 private:
-    QKeyEvent *event{};
-    Result *result{};
-    Paddle *paddle{};
-    FrameUpDown *frameUpDown{};
-    FrameRight *frameRight{};
-    FrameScoreLeft *frameScoreLeft{};
-    FrameScoreRight *frameScoreRight{};
+    QKeyEvent *event;
+    Result *result;
+    Paddle *paddle;
+    FrameUpDown *frameUpDown;
+    FrameRight *frameRight;
+    FrameScoreLeft *frameScoreLeft;
+    FrameScoreRight *frameScoreRight;
 
     double xVelocity;
     double yVelocity;

@@ -1,4 +1,4 @@
-#include "../lib/Paddle.h"
+#include "../include/Paddle.h"
 
 Paddle::Paddle() {
     setRect(0, 0, 15, 100);

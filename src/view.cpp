@@ -1,4 +1,4 @@
-#include "../lib/view.h"
+#include "../include/view.h"
 
 View::View() {
     this->setFixedSize(QSize(1280, 720));

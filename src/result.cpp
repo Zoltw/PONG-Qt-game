@@ -1,4 +1,4 @@
-#include "../lib/result.h"
+#include "../include/result.h"
 #include "ui_result.h"
 
 Result::Result(int player, QWidget *parent) : QDialog(parent), ui(new Ui::Result) {
