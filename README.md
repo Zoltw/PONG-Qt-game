@@ -1,7 +1,7 @@
 # Pong Game
 
 Pong is one of the first computer games that ever created, this simple 
-"tennis like" game features two paddles and a ball. I also implemented GUI.
+"tennis like" game features two paddles and a ball.
 
 The game is still under development.
 
