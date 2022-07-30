@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.22)
 project(untitled3)
 
 set(CMAKE_PREFIX_PATH "/Users/70ltw/Qt/6.2.2/macos/lib/cmake")
+#set your cmake lib path
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
