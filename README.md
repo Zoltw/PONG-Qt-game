@@ -11,12 +11,12 @@ Some screenshots from game.
 
 Main menu:
 <div align="center">
-  <img height="420" src="db/initialscreen.png"><br />
+  <img height="420" src="db/initialscreen.png" display="flex"><br />
 </div>
 
 Tournament mode of game:
 <div align="center">
-  <img height="420" src="db/tournamentmode.png"><br />
+  <img height="420" src="db/tournamentmode.png" display="flex"><br />
 </div>
 
 v 0.1
