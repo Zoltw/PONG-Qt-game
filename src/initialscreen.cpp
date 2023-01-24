@@ -3,8 +3,8 @@
 InitialScreen::InitialScreen(View *view, QWidget *parent) : QGraphicsScene(parent) {
     viewer = view;
     viewer->viewportUpdateMode();
-    background = new QGraphicsPixmapItem(QPixmap("../db/initialBackground.png"));
-    foreground = new QGraphicsPixmapItem(QPixmap("../db/PONGimage.png"));
+    background = new QGraphicsPixmapItem(QPixmap("../resources/img/initialBackground.png"));
+    foreground = new QGraphicsPixmapItem(QPixmap("../resources/img/PONGimage.png"));
 
     foreground->setPos(383, 120);
     addItem(background);

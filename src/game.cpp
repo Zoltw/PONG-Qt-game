@@ -19,7 +19,7 @@ timer()
 void Game::renderGame(bool mode) {
     setSceneRect(0, 0, 1280, 720);
 
-    logo = new BackgroundItems(QPixmap("../db/PONGimageBackground.png"));
+    logo = new BackgroundItems(QPixmap("../resources/img/PONGimageBackground.png"));
     logo->setPos(380, 300);
     addItem(logo);
 
@@ -50,11 +50,11 @@ void Game::renderGame(bool mode) {
     addItem(frameScoreLeft);
 
     if (mode == 1) {
-        player1 = new BackgroundItems(QPixmap("../db/player1"));
+        player1 = new BackgroundItems(QPixmap("../resources/img/player1.png"));
         player1->setPos(10, 10);
         addItem(player1);
 
-        player2 = new BackgroundItems(QPixmap("../db/player2"));
+        player2 = new BackgroundItems(QPixmap("../resources/img/player2.png"));
         player2->setPos(960, 10);
         addItem(player2);
 

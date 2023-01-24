@@ -1,11 +1,11 @@
 #include <QTextStream>
-#include "../include//aboutdoc.h"
+#include "../include/aboutdoc.h"
 #include "ui_aboutdoc.h"
 
 AboutDoc::AboutDoc(QWidget *parent) : QDialog(parent), ui(new Ui::AboutDoc) {
     ui->setupUi(this);
 
-    QFile file("../db/about_doc.txt");
+    QFile file("../resources/db/about_doc.txt");
     if (!file.open(QIODevice::ReadOnly))
         QMessageBox::information(nullptr, "Access denied", file.errorString());
     QTextStream in(&file);

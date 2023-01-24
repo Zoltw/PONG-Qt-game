@@ -14,7 +14,7 @@ int main(int argc, char *argv[]) {
     // Run application with splash screen
     if (argv[1] == splash) {
         auto *splash = new QSplashScreen;
-        splash->setPixmap(QPixmap("../db/PONGimage.png"));
+        splash->setPixmap(QPixmap("../resources/img/PONGimage.png"));
         splash->show();
 
         menu.setSize();
